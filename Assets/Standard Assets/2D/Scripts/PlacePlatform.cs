@@ -6,19 +6,24 @@ public class PlacePlatform : MonoBehaviour {
 
 	[SerializeField] public Transform platform;
 
+	private Transform transientParent;
+
 	// Use this for initialization
 	void Start () {
 		//var platform = GameObject.Find ("Platform36x01");
 		// starting platform
-		Instantiate(platform, new Vector3(0,0,0), Quaternion.identity);
+		Destroy(transientParent);
+		transientParent = Instantiate(platform, new Vector3(0,0,0), Quaternion.identity);
 		// end platform (with box)
 
 		var positions = generatePositions (30, 20);
 		foreach (var position in positions) {
-			Instantiate(platform, position, Quaternion.identity);
+			var newPlatform = Instantiate(platform, position, Quaternion.identity);
+			newPlatform.transform.parent = transientParent;
 		}
 
-		Instantiate(platform, new Vector3(22,22,0), Quaternion.identity);
+		var finalPlatform = Instantiate(platform, new Vector3(22,22,0), Quaternion.identity);
+		finalPlatform.transform.parent = transientParent;
 		GameObject.Find ("levelend").transform.position = new Vector3 (22.5f, 22.5f, 0);
 
 	}
