@@ -38,6 +38,10 @@ public class LevelGenerator : MonoBehaviour {
 		PrettyPrintMap (connections);
 
 		ChangeLevel (0);
+
+		//place initial platform
+		var newPlatform = Instantiate(platform, new Vector3(0, 0.5f, 0), Quaternion.identity);
+		newPlatform.transform.parent = transientParent;
 	}
 
 	// Update is called once per frame
@@ -47,7 +51,7 @@ public class LevelGenerator : MonoBehaviour {
 
 	Transform CreateTransientParent ()
 	{
-		return Instantiate(platform, new Vector3(0,0,0), Quaternion.identity);
+		return Instantiate(platform, new Vector3(-10f,-10f,0), Quaternion.identity);
 	}
 
 	void DestroyTransientParent(){
@@ -66,25 +70,13 @@ public class LevelGenerator : MonoBehaviour {
 		var number_of_platforms = Math.Ceiling(x_distance / 6);
 
 		// space platforms evenlyish - constraints need to take into account diagonal distance
-		for (int i=1; i <= number_of_platforms; i++) {
+		for (int i=1; i < number_of_platforms; i++) {
 //			var x = UnityEngine.Random.Range (i+6, i + );
 			var y = UnityEngine.Random.Range (0.5f, 2f);
 			var newPlatform = Instantiate(platform, new Vector3(i*6, y, 0), Quaternion.identity);
 			newPlatform.transform.parent = transientParent;
 		}
 
-	}
-
-	private List<Vector3> generatePositions(int maxX, int maxY){
-		var vectors =  new List<Vector3> ();
-
-		for (float i = 0; i < 5; i++) {
-			var x = UnityEngine.Random.Range (i+2, i + 4);
-			var y = UnityEngine.Random.Range (i, i + 2);
-			vectors.Add(new Vector3(x, y, 0) );
-		}
-
-		return vectors;
 	}
 
 	void ChangeLevel(int nextLevel){
@@ -96,8 +88,7 @@ public class LevelGenerator : MonoBehaviour {
 			transientParent = CreateTransientParent ();
 
 			Debug.Log ("level: " + nextLevel);
-
-			ResetRobotBoy ();
+		
 
 			currentLevel = nextLevel;
 			var level = connections [currentLevel];
@@ -126,12 +117,13 @@ public class LevelGenerator : MonoBehaviour {
 		forwards.SendMessage("SetLevel", max);
 
 		PlacePlatforms (new Vector3 (0f, 0.5f, 0), new Vector3 (42f, 0.5f, 0));
+		ResetRobotBoy (2.6f, 1.5f);
 	}
 
 
-	void ResetRobotBoy(){
+	void ResetRobotBoy(float x, float y){
 		var robotBoy = GameObject.Find ("CharacterRobotBoy");
-		var origin = new Vector3 (0, 0, 0);
+		var origin = new Vector3 (x, y, 0);
 		robotBoy.transform.position = origin;
 	}
 
