@@ -86,7 +86,6 @@ public class LevelGenerator : MonoBehaviour {
 
 	void ChangeLevel(int nextLevel){
 		if (nextLevel == length) {
-			SceneManager.UnloadSceneAsync ("scene1");
 			SceneManager.LoadScene ("endgame");
 		} else {
 
@@ -99,10 +98,10 @@ public class LevelGenerator : MonoBehaviour {
 
 			currentLevel = nextLevel;
 			var level = connections [currentLevel];
-			// do work to draw the level
-			var levelEnd = GameObject.Find ("levelend");
+			// do work to draw the level	
+			var levelEnd = GameObject.Find ("ExitPlatform");
 			foreach (var exit in level) {
-				var thing = Instantiate(levelEnd, new Vector3 (exit + 1.5f, 1.5f, 0), Quaternion.identity);
+				var thing = Instantiate(levelEnd, new Vector3 ((exit*2) + 3f, 0.5f, 0), Quaternion.identity);
 				thing.transform.parent = transientParent;
 				thing.SendMessage("SetLevel", exit);
 			}
