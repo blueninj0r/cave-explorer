@@ -19,6 +19,7 @@ public class ChangeScene : MonoBehaviour {
 
 	void SetLevel(int level){
 		nextLevel = level;
+		Debug.Log ("im exit number: " + level);
 	}
 
 	private void OnTriggerEnter2D(Collider2D other)
