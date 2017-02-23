@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Text;
+using UnityEngine.SceneManagement;
 
 public class LevelGenerator : MonoBehaviour {
 
@@ -20,13 +21,13 @@ public class LevelGenerator : MonoBehaviour {
 		connections = new List<HashSet<int>> (length);
 
 		connections.Add(new HashSet<int>{ 1 });
-		for (int i = 1; i < length-1; i++) {
+		for (int i = 1; i < length; i++) {
 			connections.Add( new HashSet<int> { 
 				i - 1,
 				i + 1
 			});
 		}
-		connections.Add( new HashSet<int>{ length - 2 });
+//		connections.Add( new HashSet<int>{ length - 2 });
 
 		AddNewConnection (connections);
 		AddNewConnection (connections);
@@ -84,22 +85,30 @@ public class LevelGenerator : MonoBehaviour {
 	}
 
 	void ChangeLevel(int nextLevel){
-		DestroyTransientParent ();
-		transientParent = CreateTransientParent ();
+		if (nextLevel == length) {
+			SceneManager.UnloadSceneAsync ("scene1");
+			SceneManager.LoadScene ("endgame");
+		} else {
 
-		Debug.Log ("level: " + nextLevel);
+			DestroyTransientParent ();
+			transientParent = CreateTransientParent ();
 
-		currentLevel = nextLevel;
-		var level = connections [currentLevel];
-		// do work to draw the level
-		var levelEnd = GameObject.Find ("levelend");
-		foreach (var exit in level) {
-			var thing = Instantiate(levelEnd, new Vector3 (exit + 1.5f, 1.5f, 0), Quaternion.identity);
-			thing.transform.parent = transientParent;
-			thing.SendMessage("SetLevel", exit);
+			Debug.Log ("level: " + nextLevel);
+
+			ResetRobotBoy ();
+
+			currentLevel = nextLevel;
+			var level = connections [currentLevel];
+			// do work to draw the level
+			var levelEnd = GameObject.Find ("levelend");
+			foreach (var exit in level) {
+				var thing = Instantiate(levelEnd, new Vector3 (exit + 1.5f, 1.5f, 0), Quaternion.identity);
+				thing.transform.parent = transientParent;
+				thing.SendMessage("SetLevel", exit);
+			}
+
+			//PlacePlatforms ();
 		}
-		ResetRobotBoy ();
-		//PlacePlatforms ();
 	}
 
 
