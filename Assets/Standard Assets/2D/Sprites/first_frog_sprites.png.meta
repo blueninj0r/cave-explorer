@@ -1,0 +1,944 @@
+fileFormatVersion: 2
+guid: ebdb2e05118e24c21b11e9eb44f475b1
+timeCreated: 1488305049
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: first_frog_sprites_0
+    21300002: first_frog_sprites_1
+    21300004: first_frog_sprites_2
+    21300006: first_frog_sprites_3
+    21300008: first_frog_sprites_4
+    21300010: first_frog_sprites_5
+    21300012: first_frog_sprites_6
+    21300014: first_frog_sprites_7
+    21300016: first_frog_sprites_8
+    21300018: first_frog_sprites_9
+    21300020: first_frog_sprites_10
+    21300022: first_frog_sprites_11
+    21300024: first_frog_sprites_12
+    21300026: first_frog_sprites_13
+    21300028: first_frog_sprites_14
+    21300030: first_frog_sprites_15
+    21300032: first_frog_sprites_16
+    21300034: first_frog_sprites_17
+    21300036: first_frog_sprites_18
+    21300038: first_frog_sprites_19
+    21300040: first_frog_sprites_20
+    21300042: first_frog_sprites_21
+    21300044: first_frog_sprites_22
+    21300046: first_frog_sprites_23
+    21300048: first_frog_sprites_24
+    21300050: first_frog_sprites_25
+    21300052: first_frog_sprites_26
+    21300054: first_frog_sprites_27
+    21300056: first_frog_sprites_28
+    21300058: first_frog_sprites_29
+    21300060: first_frog_sprites_30
+    21300062: first_frog_sprites_31
+    21300064: first_frog_sprites_32
+    21300066: first_frog_sprites_33
+    21300068: first_frog_sprites_34
+    21300070: first_frog_sprites_35
+    21300072: first_frog_sprites_36
+    21300074: first_frog_sprites_37
+    21300076: first_frog_sprites_38
+    21300078: first_frog_sprites_39
+    21300080: first_frog_sprites_40
+    21300082: first_frog_sprites_41
+    21300084: first_frog_sprites_42
+    21300086: first_frog_sprites_43
+    21300088: first_frog_sprites_44
+    21300090: first_frog_sprites_45
+    21300092: first_frog_sprites_46
+    21300094: first_frog_sprites_47
+    21300096: first_frog_sprites_48
+    21300098: first_frog_sprites_49
+    21300100: first_frog_sprites_50
+    21300102: first_frog_sprites_51
+    21300104: first_frog_sprites_52
+    21300106: first_frog_sprites_53
+    21300108: first_frog_sprites_54
+    21300110: first_frog_sprites_55
+    21300112: first_frog_sprites_56
+    21300114: first_frog_sprites_57
+    21300116: first_frog_sprites_58
+    21300118: first_frog_sprites_59
+    21300120: first_frog_sprites_60
+    21300122: first_frog_sprites_61
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: first_frog_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 10214
+        width: 874
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 10192
+        width: 879
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 10173
+        width: 888
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 3115
+        y: 10152
+        width: 900
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 9476
+        width: 920
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 9471
+        width: 931
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 9465
+        width: 943
+        height: 645
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 3094
+        y: 9470
+        width: 926
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 8802
+        width: 889
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 8812
+        width: 852
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 8824
+        width: 830
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_11
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 8844
+        width: 836
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 8150
+        width: 863
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_13
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 8146
+        width: 874
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_14
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 8149
+        width: 874
+        height: 573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_15
+      rect:
+        serializedVersion: 2
+        x: 3067
+        y: 8149
+        width: 874
+        height: 573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_16
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 7475
+        width: 874
+        height: 573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_17
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 7475
+        width: 873
+        height: 573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 7475
+        width: 872
+        height: 573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_19
+      rect:
+        serializedVersion: 2
+        x: 3073
+        y: 7480
+        width: 863
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 6806
+        width: 868
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 6802
+        width: 867
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 6802
+        width: 867
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_23
+      rect:
+        serializedVersion: 2
+        x: 3073
+        y: 6803
+        width: 868
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_24
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 6137
+        width: 868
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_25
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 6138
+        width: 858
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_26
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 6142
+        width: 865
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_27
+      rect:
+        serializedVersion: 2
+        x: 3073
+        y: 6142
+        width: 867
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_28
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 5469
+        width: 862
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_29
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 5474
+        width: 866
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_30
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 5474
+        width: 866
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_31
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 5479
+        width: 853
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_32
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 4800
+        width: 866
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_33
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 4800
+        width: 862
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_34
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 4810
+        width: 861
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_35
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 4810
+        width: 856
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_36
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 4137
+        width: 856
+        height: 541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_37
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 4141
+        width: 856
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_38
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 4142
+        width: 843
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_39
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 4147
+        width: 843
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_40
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 3473
+        width: 843
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_41
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 3478
+        width: 851
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_42
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 3475
+        width: 850
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_43
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 3483
+        width: 847
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_44
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2800
+        width: 845
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_45
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 2809
+        width: 847
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_46
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 2809
+        width: 847
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_47
+      rect:
+        serializedVersion: 2
+        x: 3094
+        y: 2804
+        width: 852
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_48
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 2127
+        width: 853
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_49
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 2130
+        width: 858
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_50
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 2130
+        width: 858
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_51
+      rect:
+        serializedVersion: 2
+        x: 3094
+        y: 2130
+        width: 868
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_52
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1456
+        width: 867
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_53
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1456
+        width: 866
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_54
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 1452
+        width: 866
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_55
+      rect:
+        serializedVersion: 2
+        x: 3104
+        y: 1451
+        width: 858
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_56
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 782
+        width: 872
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_57
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 777
+        width: 872
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_58
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 782
+        width: 877
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_59
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 782
+        width: 885
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_60
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 105
+        width: 878
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: first_frog_sprites_61
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 104
+        width: 873
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
