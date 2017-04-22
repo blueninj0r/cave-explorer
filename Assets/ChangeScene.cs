@@ -24,7 +24,7 @@ public class ChangeScene : MonoBehaviour {
 
 	private void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.tag == "Player")
+		if (other.tag == "Player" && enabled)
 		{
 			CameraFade.StartAlphaFade (Color.black, false, 3f);
 			var camera = GameObject.Find ("MainCamera");
