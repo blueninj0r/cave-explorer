@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
-public class croaking : MonoBehaviour, INoteProcessor {
+public class Croaking : MonoBehaviour, INoteProcessor {
 
 	public GameObject noteBubble;
 	public AudioClip croak;

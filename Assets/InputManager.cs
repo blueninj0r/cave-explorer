@@ -24,16 +24,16 @@ public class InputManager : MonoBehaviour {
 			var mPressed = Input.GetKeyUp (KeyCode.M);
 
 			if (jPressed) {
-				SendNoteEvent(Notes.J);
+				SendNoteEvent(Notes.C);
 				timeSinceLastKey = 0;
 			} else if (kPressed) {
-				SendNoteEvent(Notes.K);
+				SendNoteEvent(Notes.D);
 				timeSinceLastKey = 0;
 			} else if (lPressed) {
-				SendNoteEvent(Notes.L);
+				SendNoteEvent(Notes.G);
 				timeSinceLastKey = 0;
 			} else if (mPressed) {
-				SendNoteEvent(Notes.M);
+				SendNoteEvent(Notes.E);
 				timeSinceLastKey = 0;
 			}
 		} else {

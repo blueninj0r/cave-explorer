@@ -1,28 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
 using System.Linq;
 using System.Text;
-using UnityEngine.EventSystems;
 
 
-public enum Notes {
-	J,K,L,M
-}
-
-interface INoteProcessor : IEventSystemHandler{
-	void ProcessNote (Notes note);
-}	
 
 public class EmmaFrogBrain : MonoBehaviour,INoteProcessor {
 
 	private IList<Notes> noteMemory = new List<Notes>();
 	private int cyclesSinceLastNote = 0;
 
+	public IList<Song> Songs { get; set; }
+	private int currentSong;
+
 	// Use this for initialization
 	void Start () {
-		
+		currentSong = 0;
 	}
 	
 	// Update is called once per frame
@@ -34,27 +28,31 @@ public class EmmaFrogBrain : MonoBehaviour,INoteProcessor {
 		}
 	}
 
+	public void SetSongs(IList<Song> songs){
+		Songs = songs;
+	}
+
 	public void ProcessNote(Notes note){
 		Debug.Log ("EmmaFrog is processing the note");
 		noteMemory.Add (note);	
 		cyclesSinceLastNote = 0;
 		PrettyPrintList (noteMemory);
-		var theSong = new Song ();
+		var theSong = Songs [currentSong];
 		if (theSong.IsEqual (noteMemory)) {
-			Debug.Log ("I am impressed");
-			//record something about impressed-ness
-			noteMemory = new List<Notes>();
-		}else {
+			currentSong++;
+			if (currentSong == Songs.Count) {
+				Debug.Log ("I am so impressed");
+				//endGame
+			} else {
+				Debug.Log ("carry on, sir");
+			}
+
+		} else {			
 			Debug.Log("I am not impressed yet.");
 		}
-
-		// is the song in the right order?
-		// am I more impressed?
-		// am I completely impressed yet?
-	}
-
-	bool isKeyPressed(bool key=false, bool key2=false, bool key3=false, bool key4=false) {
-		return key || key2 || key3 || key4;
+		if (noteMemory.Count == 8) {
+			noteMemory = new List<Notes>();
+		}
 	}
 
 	void PrettyPrintList<T>(IList<T> theList) {
@@ -69,15 +67,4 @@ public class EmmaFrogBrain : MonoBehaviour,INoteProcessor {
 	}
 }
 
-public class Song{
-	IList<Notes> songNotes;
 
-	public Song(){
-		songNotes = new List<Notes>{Notes.J,Notes.J,Notes.J,Notes.J,Notes.J,Notes.J,Notes.J,Notes.J};
-
-	}
-
-	public bool IsEqual(IList<Notes> notes){
-		return notes.SequenceEqual (songNotes);
-	}
-}
