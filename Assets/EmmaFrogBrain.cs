@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using System.Text;
+using UnityEngine.SceneManagement;
 
 
 
@@ -13,6 +14,8 @@ public class EmmaFrogBrain : MonoBehaviour,INoteProcessor {
 
 	public IList<Song> Songs { get; set; }
 	private int currentSong;
+
+	private bool isListening;
 
 	// Use this for initialization
 	void Start () {
@@ -33,25 +36,45 @@ public class EmmaFrogBrain : MonoBehaviour,INoteProcessor {
 	}
 
 	public void ProcessNote(Notes note){
-		Debug.Log ("EmmaFrog is processing the note");
-		noteMemory.Add (note);	
-		cyclesSinceLastNote = 0;
-		PrettyPrintList (noteMemory);
-		var theSong = Songs [currentSong];
-		if (theSong.IsEqual (noteMemory)) {
-			currentSong++;
-			if (currentSong == Songs.Count) {
-				Debug.Log ("I am so impressed");
-				//endGame
-			} else {
-				Debug.Log ("carry on, sir");
-			}
+		if (isListening) {
+			Debug.Log ("EmmaFrog is processing the note");
+			noteMemory.Add (note);	
+			cyclesSinceLastNote = 0;
+			PrettyPrintList (noteMemory);
+			var theSong = Songs [currentSong];
+			if (theSong.IsEqual (noteMemory)) {
+				currentSong++;
+				if (currentSong == Songs.Count) {
+					Debug.Log ("I am so impressed");
+					WinGame ();
+				} else {
+					Debug.Log ("carry on, sir");
+				}
 
-		} else {			
-			Debug.Log("I am not impressed yet.");
+			} else {			
+				Debug.Log ("I am not impressed yet.");
+			}
+			if (noteMemory.Count == 8) {
+				noteMemory = new List<Notes> ();
+			}
 		}
-		if (noteMemory.Count == 8) {
-			noteMemory = new List<Notes>();
+	}
+
+	private void WinGame(){
+		SceneManager.LoadScene("endgame");
+	}
+
+	private void OnTriggerEnter2D(Collider2D other) {
+		if (other.tag == "Player") {
+			isListening = true;
+		}
+	}
+
+	private void OnTriggerExit2D(Collider2D other) {
+		if (other.tag == "Player") {
+			isListening = false;
+			currentSong = 0;
+			noteMemory = new List<Notes> ();
 		}
 	}
 
