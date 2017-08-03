@@ -7,6 +7,8 @@ public class SingSong : MonoBehaviour {
 
 	public Song MySong { get; set; }
 
+	private bool playing = false;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -22,16 +24,18 @@ public class SingSong : MonoBehaviour {
 	}
 
 	private void OnTriggerEnter2D(Collider2D other) {
-		if (other.tag == "Player") {
-			StartCoroutine (singTheSong ());			
+		if (other.tag == "Player" && !playing) {
+			StartCoroutine (SingTheSong ());			
 		}
 	}
 
-	private IEnumerator singTheSong(){
+	private IEnumerator SingTheSong(){
+		playing = true;
 		foreach (var note in MySong.SongNotes) {
 			var croak = this.gameObject.GetComponent<Croaking> ();
-			croak.ProcessNote (note);
+			croak.PlayNote (note);
 			yield return new WaitForSeconds(MySong.NoteDuration);
 		}
+		playing = false;
 	}
 }

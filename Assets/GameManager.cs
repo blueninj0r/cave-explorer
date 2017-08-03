@@ -17,10 +17,13 @@ public class GameManager : MonoBehaviour {
 		for (int i = 0; i < OneSongEach.Length; i++) {
 			List<Notes> notes = null;
 			if (i == 0) {
-				notes = new List<Notes> { Notes.C, Notes.C, Notes.C, Notes.C, Notes.C, Notes.C, Notes.C, Notes.C };
+				notes = new List<Notes> { Notes.C }; //Notes.C, Notes.D, Notes.G, Notes.C, Notes.D, Notes.G, Notes.C, Notes.D, Notes.G };
 			}
 			if (i == 1) {
-				notes = new List<Notes> { Notes.D, Notes.D, Notes.C, Notes.D, Notes.D, Notes.C, Notes.D, Notes.D };
+				notes = new List<Notes> { Notes.D }; //Notes.G, Notes.D, Notes.C, Notes.D, Notes.G, Notes.D, Notes.C, Notes.G };
+			}
+			if (i == 2) {
+				notes = new List<Notes> { Notes.G }; //Notes.C, Notes.D, Notes.G, Notes.C, Notes.C, Notes.D, Notes.G, Notes.C, Notes.E, Notes.E };
 			}
 
 			var song = new Song {
@@ -45,7 +48,7 @@ interface INoteProcessor : IEventSystemHandler{
 }
 
 public enum Notes {
-	C,D,G,E
+	C=0,D,G,E
 }
 
 public class Song{

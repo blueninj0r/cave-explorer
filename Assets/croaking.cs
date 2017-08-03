@@ -3,24 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
-public class Croaking : MonoBehaviour, INoteProcessor {
+public class Croaking : MonoBehaviour {
 
+	public Sprite[] noteSprites;
+	public AudioClip[] noteClips;
 	public GameObject noteBubble;
-	public AudioClip croak;
 	AudioSource audio;
 	// Use this for initialization
 	void Start () {
 		audio = GetComponent<AudioSource>();
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		// ToDo: determine if speechbubble should be destroyed		
-	}
 
-	public void ProcessNote(Notes note){
+	public void PlayNote(Notes note){
+		var croak = noteClips[(int)note];
 		audio.PlayOneShot (croak, 0.7F);
+		var sprite = noteSprites[(int)note];
+		var renderer = noteBubble.GetComponent<SpriteRenderer> ();
+		renderer.sprite = sprite;
 		Instantiate (noteBubble, this.gameObject.transform.position, Quaternion.identity);
 	}
 
