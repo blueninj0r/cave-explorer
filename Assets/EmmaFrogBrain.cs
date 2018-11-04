@@ -63,7 +63,8 @@ public class EmmaFrogBrain : MonoBehaviour,INoteProcessor {
 
 	private IEnumerator WinGame(){
 		var camera = GameObject.FindObjectOfType<Camera> ();
-		camera.orthographicSize = 3;
+		CameraFade.StartAlphaFade (new Color32(0, 102, 51, 255), false, 15.0f);
+//		camera.orthographicSize = 2;
 		System.Threading.Thread.Sleep (1000);
 		foreach (var song in Songs) {
 			foreach (var note in song.SongNotes) {
@@ -72,7 +73,7 @@ public class EmmaFrogBrain : MonoBehaviour,INoteProcessor {
 				yield return new WaitForSeconds (Songs [0].NoteDuration);
 			}
 		}
-		//SceneManager.LoadScene("endgame");
+		SceneManager.LoadScene("endgame");
 	}
 
 	private IEnumerator RespondToSong(Notes note){

@@ -1,0 +1,1002 @@
+fileFormatVersion: 2
+guid: f6fd3972bce4848dfa7a52ed71e6518f
+timeCreated: 1539710156
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: swimming_frog 1_0
+    21300002: swimming_frog 1_1
+    21300004: swimming_frog 1_2
+    21300006: swimming_frog 1_3
+    21300008: swimming_frog 1_4
+    21300010: swimming_frog 1_5
+    21300012: swimming_frog 1_6
+    21300014: swimming_frog 1_7
+    21300016: swimming_frog 1_8
+    21300018: swimming_frog 1_9
+    21300020: swimming_frog 1_10
+    21300022: swimming_frog 1_11
+    21300024: swimming_frog 1_12
+    21300026: swimming_frog 1_13
+    21300028: swimming_frog 1_14
+    21300030: swimming_frog 1_15
+    21300032: swimming_frog 1_16
+    21300034: swimming_frog 1_17
+    21300036: swimming_frog 1_18
+    21300038: swimming_frog 1_19
+    21300040: swimming_frog 1_20
+    21300042: swimming_frog 1_21
+    21300044: swimming_frog 1_22
+    21300046: swimming_frog 1_23
+    21300048: swimming_frog 1_24
+    21300050: swimming_frog 1_25
+    21300052: swimming_frog 1_26
+    21300054: swimming_frog 1_27
+    21300056: swimming_frog 1_28
+    21300058: swimming_frog 1_29
+    21300060: swimming_frog 1_30
+    21300062: swimming_frog 1_31
+    21300064: swimming_frog 1_32
+    21300066: swimming_frog 1_33
+    21300068: swimming_frog 1_34
+    21300070: swimming_frog 1_35
+    21300072: swimming_frog 1_36
+    21300074: swimming_frog 1_37
+    21300076: swimming_frog 1_38
+    21300078: swimming_frog 1_39
+    21300080: swimming_frog 1_40
+    21300082: swimming_frog 1_41
+    21300084: swimming_frog 1_42
+    21300086: swimming_frog 1_43
+    21300088: swimming_frog 1_44
+    21300090: swimming_frog 1_45
+    21300092: swimming_frog 1_46
+    21300094: swimming_frog 1_47
+    21300096: swimming_frog 1_48
+    21300098: swimming_frog 1_49
+    21300100: swimming_frog 1_50
+    21300102: swimming_frog 1_51
+    21300104: swimming_frog 1_52
+    21300106: swimming_frog 1_53
+    21300108: swimming_frog 1_54
+    21300110: swimming_frog 1_55
+    21300112: swimming_frog 1_56
+    21300114: swimming_frog 1_57
+    21300116: swimming_frog 1_58
+    21300118: swimming_frog 1_59
+    21300120: swimming_frog 1_60
+    21300122: swimming_frog 1_61
+    21300124: swimming_frog 1_62
+    21300126: swimming_frog 1_63
+    21300128: swimming_frog 1_64
+    21300130: swimming_frog 1_65
+    21300132: swimming_frog 1_66
+    21300134: swimming_frog 1_67
+    21300136: swimming_frog 1_68
+    21300138: swimming_frog 1_69
+    21300140: swimming_frog 1_70
+    21300142: swimming_frog 1_71
+    21300144: swimming_frog 1_72
+    21300146: swimming_frog 1_73
+    21300148: swimming_frog 1_74
+    21300150: swimming_frog 1_75
+    21300152: swimming_frog 1_76
+    21300154: swimming_frog 1_77
+    21300156: swimming_frog 1_78
+    21300158: swimming_frog 1_79
+    21300160: swimming_frog 1_80
+    21300162: swimming_frog 1_81
+    21300164: swimming_frog 1_82
+    21300166: swimming_frog 1_83
+    21300168: swimming_frog 1_84
+    21300170: swimming_frog 1_85
+    21300172: swimming_frog 1_86
+    21300174: swimming_frog 1_87
+    21300176: swimming_frog 1_88
+    21300178: swimming_frog 1_89
+    21300180: swimming_frog 1_90
+    21300182: swimming_frog 1_91
+    21300184: swimming_frog 1_92
+    21300186: swimming_frog 1_93
+    21300188: swimming_frog 1_94
+    21300190: swimming_frog 1_95
+    21300192: swimming_frog 1_96
+    21300194: swimming_frog 1_97
+    21300196: swimming_frog 1_98
+    21300198: swimming_frog 1_99
+    21300200: swimming_frog 1_100
+    21300202: swimming_frog 1_101
+    21300204: swimming_frog 1_102
+    21300206: swimming_frog 1_103
+    21300208: swimming_frog 1_104
+    21300210: swimming_frog 1_105
+    21300212: swimming_frog 1_106
+    21300214: swimming_frog 1_107
+    21300216: swimming_frog 1_108
+    21300218: swimming_frog 1_109
+    21300220: swimming_frog 1_110
+    21300222: swimming_frog 1_111
+    21300224: swimming_frog 1_112
+    21300226: swimming_frog 1_113
+    21300228: swimming_frog 1_114
+    21300230: swimming_frog 1_115
+    21300232: swimming_frog 1_116
+    21300234: swimming_frog 1_117
+    21300236: swimming_frog 1_118
+    21300238: swimming_frog 1_119
+    21300240: swimming_frog 1_120
+    21300242: swimming_frog 1_121
+    21300244: swimming_frog 1_122
+    21300246: swimming_frog 1_123
+    21300248: swimming_frog 1_124
+    21300250: swimming_frog 1_125
+    21300252: swimming_frog 1_126
+    21300254: swimming_frog 1_127
+    21300256: swimming_frog 1_128
+    21300258: swimming_frog 1_129
+    21300260: swimming_frog 1_130
+    21300262: swimming_frog 1_131
+    21300264: swimming_frog 1_132
+    21300266: swimming_frog 1_133
+    21300268: swimming_frog 1_134
+    21300270: swimming_frog 1_135
+    21300272: swimming_frog 1_136
+    21300274: swimming_frog 1_137
+    21300276: swimming_frog 1_138
+    21300278: swimming_frog 1_139
+    21300280: swimming_frog 1_140
+    21300282: swimming_frog 1_141
+    21300284: swimming_frog 1_142
+    21300286: swimming_frog 1_143
+    21300288: swimming_frog 1_144
+    21300290: swimming_frog 1_145
+    21300292: swimming_frog 1_146
+    21300294: swimming_frog 1_147
+    21300296: swimming_frog 1_148
+    21300298: swimming_frog 1_149
+    21300300: swimming_frog 1_150
+    21300302: swimming_frog 1_151
+    21300304: swimming_frog 1_152
+    21300306: swimming_frog 1_153
+    21300308: swimming_frog 1_154
+    21300310: swimming_frog 1_155
+    21300312: swimming_frog 1_156
+    21300314: swimming_frog 1_157
+    21300316: swimming_frog 1_158
+    21300318: swimming_frog 1_159
+    21300320: swimming_frog 1_160
+    21300322: swimming_frog 1_161
+    21300324: swimming_frog 1_162
+    21300326: swimming_frog 1_163
+    21300328: swimming_frog 1_164
+    21300330: swimming_frog 1_165
+    21300332: swimming_frog 1_166
+    21300334: swimming_frog 1_167
+    21300336: swimming_frog 1_168
+    21300338: swimming_frog 1_169
+    21300340: swimming_frog 1_170
+    21300342: swimming_frog 1_171
+    21300344: swimming_frog 1_172
+    21300346: swimming_frog 1_173
+    21300348: swimming_frog 1_174
+    21300350: swimming_frog 1_175
+    21300352: swimming_frog 1_176
+    21300354: swimming_frog 1_177
+    21300356: swimming_frog 1_178
+    21300358: swimming_frog 1_179
+    21300360: swimming_frog 1_180
+    21300362: swimming_frog 1_181
+    21300364: swimming_frog 1_182
+    21300366: swimming_frog 1_183
+    21300368: swimming_frog 1_184
+    21300370: swimming_frog 1_185
+    21300372: swimming_frog 1_186
+    21300374: swimming_frog 1_187
+    21300376: swimming_frog 1_188
+    21300378: swimming_frog 1_189
+    21300380: swimming_frog 1_190
+    21300382: swimming_frog 1_191
+    21300384: swimming_frog 1_192
+    21300386: swimming_frog 1_193
+    21300388: swimming_frog 1_194
+    21300390: swimming_frog 1_195
+    21300392: swimming_frog 1_196
+    21300394: swimming_frog 1_197
+    21300396: swimming_frog 1_198
+    21300398: swimming_frog 1_199
+    21300400: swimming_frog 1_200
+    21300402: swimming_frog 1_201
+    21300404: swimming_frog 1_202
+    21300406: swimming_frog 1_203
+    21300408: swimming_frog 1_204
+    21300410: swimming_frog 1_205
+    21300412: swimming_frog 1_206
+    21300414: swimming_frog 1_207
+    21300416: swimming_frog 1_208
+    21300418: swimming_frog 1_209
+    21300420: swimming_frog 1_210
+    21300422: swimming_frog 1_211
+    21300424: swimming_frog 1_212
+    21300426: swimming_frog 1_213
+    21300428: swimming_frog 1_214
+    21300430: swimming_frog 1_215
+    21300432: swimming_frog 1_216
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: swimming_frog 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1620
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1620
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_2
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1620
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_3
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1620
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_4
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1620
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1440
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_7
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1440
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_8
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1440
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_9
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1440
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_11
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1260
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_12
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1260
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_13
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1260
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_14
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1260
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_16
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1080
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_17
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1080
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_18
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1080
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_19
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1080
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_21
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 900
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_22
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 900
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_23
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 900
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_24
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 900
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_26
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 720
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_27
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 720
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_28
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 720
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_29
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 720
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_31
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 540
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_32
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 540
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_33
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 540
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_34
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 540
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_36
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 360
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_37
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 360
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_38
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 360
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_39
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 360
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_41
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 180
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_42
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 180
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_43
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 180
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_44
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 180
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_46
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 0
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_47
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 0
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_48
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 0
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: swimming_frog 1_49
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 0
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

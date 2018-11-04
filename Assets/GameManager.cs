@@ -14,16 +14,17 @@ public class GameManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
 		for (int i = 0; i < OneSongEach.Length; i++) {
 			List<Notes> notes = null;
 			if (i == 0) {
-				notes = new List<Notes> { Notes.C }; //Notes.C, Notes.D, Notes.G, Notes.C, Notes.D, Notes.G, Notes.C, Notes.D, Notes.G };
+				notes = new List<Notes> { Notes.C, Notes.C, Notes.D, Notes.G, Notes.C };
 			}
 			if (i == 1) {
-				notes = new List<Notes> { Notes.D }; //Notes.G, Notes.D, Notes.C, Notes.D, Notes.G, Notes.D, Notes.C, Notes.G };
+				notes = new List<Notes> { Notes.D }; //, Notes.G, Notes.D, Notes.C, Notes.D };
 			}
 			if (i == 2) {
-				notes = new List<Notes> { Notes.G }; //Notes.C, Notes.D, Notes.G, Notes.C, Notes.C, Notes.D, Notes.G, Notes.C, Notes.E, Notes.E };
+				notes = new List<Notes> { Notes.D }; //, Notes.G, Notes.C, Notes.E, Notes.E };
 			}
 
 			var song = new Song {

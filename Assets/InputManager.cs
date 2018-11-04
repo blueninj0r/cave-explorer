@@ -17,7 +17,7 @@ public class InputManager : MonoBehaviour {
 
 		timeSinceLastKey++;
 
-		if (timeSinceLastKey > 80) {
+		if (timeSinceLastKey > 15) {
 			var hPressed = Input.GetKeyUp (KeyCode.H);
 			var jPressed = Input.GetKeyUp (KeyCode.J);
 			var kPressed = Input.GetKeyUp (KeyCode.K);
@@ -31,10 +31,10 @@ public class InputManager : MonoBehaviour {
 				SendNoteEvent(Notes.D);
 				timeSinceLastKey = 0;
 			} else if (kPressed) {
-				SendNoteEvent(Notes.G);
+				SendNoteEvent(Notes.E);
 				timeSinceLastKey = 0;
 			} else if (lPressed) {
-				SendNoteEvent(Notes.E);
+				SendNoteEvent(Notes.G);
 				timeSinceLastKey = 0;
 			}
 		} else {

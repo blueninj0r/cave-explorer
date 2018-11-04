@@ -13,7 +13,9 @@ public class BubbleUp : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		this.gameObject.transform.Translate (new Vector3 (0,0.1f,0));
-		this.gameObject.transform.localScale += new Vector3(0.01f,0.01f,0);
+		this.gameObject.transform.Translate (new Vector3 (0.025f,0.05f,0));
+		if (this.gameObject.transform.localScale.magnitude < 2) {
+			this.gameObject.transform.localScale += new Vector3 (0.01f, 0.01f, 0);
+		}
 	}
 }
