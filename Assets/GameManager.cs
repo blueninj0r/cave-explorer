@@ -21,10 +21,10 @@ public class GameManager : MonoBehaviour {
 				notes = new List<Notes> { Notes.C, Notes.C, Notes.D, Notes.G, Notes.C };
 			}
 			if (i == 1) {
-				notes = new List<Notes> { Notes.D }; //, Notes.G, Notes.D, Notes.C, Notes.D };
+				notes = new List<Notes> { Notes.D, Notes.G, Notes.D, Notes.C, Notes.D };
 			}
 			if (i == 2) {
-				notes = new List<Notes> { Notes.D }; //, Notes.G, Notes.C, Notes.E, Notes.E };
+				notes = new List<Notes> { Notes.D, Notes.G, Notes.C, Notes.E, Notes.E };
 			}
 
 			var song = new Song {
@@ -61,4 +61,6 @@ public class Song{
 	public bool IsEqual(IList<Notes> notes){
 		return notes.SequenceEqual (SongNotes);
 	}
+
+	public int Count { get { return SongNotes.Count (); } }
 }

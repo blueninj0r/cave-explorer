@@ -12,7 +12,7 @@ public class Croaking : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		audio = GetComponent<AudioSource>();
-		
+		Debug.Log (audio);
 	}
 
 	public void PlayNote(Notes note){

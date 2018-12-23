@@ -27,8 +27,11 @@ public class ChangeScene : MonoBehaviour {
 		if (other.tag == "Player" && enabled)
 		{
 			CameraFade.StartAlphaFade (Color.black, false, 3f);
-			var camera = GameObject.Find ("MainCamera");
-			camera.SendMessage ("ChangeLevel", nextLevel);
+
+
+
+//			var camera = GameObject.Find ("MainCamera");
+//			camera.SendMessage ("ChangeLevel", nextLevel);
 			//Application.LoadLevel(nextLevel);
 		}
 	}

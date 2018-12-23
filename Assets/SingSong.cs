@@ -14,9 +14,11 @@ public class SingSong : MonoBehaviour, INoteProcessor {
 
 	private bool isListening;
 
+	private bool isCompleted;
+
 	// Use this for initialization
 	void Start () {
-		
+		isCompleted = false;
 	}
 	
 	// Update is called once per frame
@@ -63,24 +65,33 @@ public class SingSong : MonoBehaviour, INoteProcessor {
 			noteMemory.Add (note);	
 			cyclesSinceLastNote = 0;
 			var theSong = MySong;
-			if (theSong.IsEqual (noteMemory)) {
-				Debug.Log ("I am so impressed");
-				StartCoroutine (RespondToSong (Notes.G));
-			} else {				
-				Debug.Log ("carry on, sir");
-				StartCoroutine (SingTheSong ());
-			}
-			noteMemory = new List<Notes> ();
-			if (noteMemory.Count == 8) {
-				//TODO: add unsatisfied feedback - plus New COLOURRRR!!!!!!
+			if (MySong.Count == noteMemory.Count) {
+				if (theSong.IsEqual (noteMemory)) {
+					Debug.Log ("sounds good");
+					StartCoroutine (PlayChord ());
+					var camera = GameObject.Find ("Main Camera");
+					if (!isCompleted) {
+						camera.SendMessage ("SongCompleted", MySong);
+						isCompleted = true;
+					}
+				} else {				
+					Debug.Log ("not good");
+					StartCoroutine (SingTheSong ());
+				}
 				noteMemory = new List<Notes> ();
 			}
 		}
 	}
 
-	private IEnumerator RespondToSong(Notes note){
+	private IEnumerator PlayChord(){
 		var croak = this.gameObject.GetComponent<Croaking> ();
 		yield return new WaitForSeconds(0.5f);
-		croak.PlayNote (note);
+		croak.PlayNote (Notes.C);
+		croak.PlayNote (Notes.G);
+		croak.PlayNote (Notes.E);
+		yield return new WaitForSeconds(0.5f);
+		croak.PlayNote (Notes.C);
+		croak.PlayNote (Notes.G);
+		croak.PlayNote (Notes.E);
 	}
 }

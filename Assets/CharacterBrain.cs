@@ -26,8 +26,10 @@ public class CharacterBrain : MonoBehaviour, INoteProcessor {
 
 	void OnCollisionEnter2D(Collision2D collision) {
 		if (collision.gameObject.tag == "ground") {
+			Debug.Log ("Set wet to false");
 			anim.SetBool ("Wet", false);
 		} else {
+			Debug.Log ("Set wet to true");
 			anim.SetBool ("Wet", true);
 		}
 	}

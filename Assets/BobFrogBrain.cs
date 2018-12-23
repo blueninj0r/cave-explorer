@@ -17,9 +17,12 @@ public class BobFrogBrain : MonoBehaviour,INoteProcessor {
 
 	private bool isListening;
 
+	private bool isCompleted;
+
 	// Use this for initialization
 	void Start () {
 		currentSong = 0;
+		isCompleted = false;
 	}
 
 	// Update is called once per frame

@@ -18,22 +18,22 @@ public class InputManager : MonoBehaviour {
 		timeSinceLastKey++;
 
 		if (timeSinceLastKey > 15) {
-			var hPressed = Input.GetKeyUp (KeyCode.H);
-			var jPressed = Input.GetKeyUp (KeyCode.J);
-			var kPressed = Input.GetKeyUp (KeyCode.K);
-			var lPressed = Input.GetKeyUp (KeyCode.L);
+			var cPressed = Input.GetKeyUp (KeyCode.C);
+			var dPressed = Input.GetKeyUp (KeyCode.D);
+			var ePressed = Input.GetKeyUp (KeyCode.E);
+			var gPressed = Input.GetKeyUp (KeyCode.G);
 
 
-			if (hPressed) {
+			if (cPressed) {
 				SendNoteEvent(Notes.C);
 				timeSinceLastKey = 0;
-			} else if (jPressed) {
+			} else if (dPressed) {
 				SendNoteEvent(Notes.D);
 				timeSinceLastKey = 0;
-			} else if (kPressed) {
+			} else if (ePressed) {
 				SendNoteEvent(Notes.E);
 				timeSinceLastKey = 0;
-			} else if (lPressed) {
+			} else if (gPressed) {
 				SendNoteEvent(Notes.G);
 				timeSinceLastKey = 0;
 			}

@@ -13,13 +13,13 @@ public class EmmaFrogBrain : MonoBehaviour,INoteProcessor {
 	private int cyclesSinceLastNote = 0;
 
 	public IList<Song> Songs { get; set; }
-	private int currentSong;
+	private int songsSung;
 
 	private bool isListening;
 
 	// Use this for initialization
 	void Start () {
-		currentSong = 0;
+		songsSung = 0;
 	}
 	
 	// Update is called once per frame
@@ -41,45 +41,45 @@ public class EmmaFrogBrain : MonoBehaviour,INoteProcessor {
 			noteMemory.Add (note);	
 			cyclesSinceLastNote = 0;
 			PrettyPrintList (noteMemory);
-			var theSong = Songs [currentSong];
-			if (theSong.IsEqual (noteMemory)) {
-				currentSong++;
-				if (currentSong == Songs.Count) {
+			if (Songs.Any(song => song.IsEqual (noteMemory))) {
+				songsSung++;
+				if (songsSung == Songs.Count) {
 					Debug.Log ("I am so impressed");
-					StartCoroutine (WinGame ());
+					StartCoroutine(WinGame ());
 				} else {
 					Debug.Log ("carry on, sir");
-					StartCoroutine(RespondToSong (Notes.D));				}
-				noteMemory = new List<Notes> ();
-			} else {			
+					StartCoroutine(PlayChord ());				}
+					noteMemory = new List<Notes> ();
+			} else if (Songs[0].Count == noteMemory.Count) {			
 				Debug.Log ("I am not impressed yet.");
-			}
-			if (noteMemory.Count == 8) {
-				//TODO: add unsatisfied feedback - plus New COLOURRRR!!!!!!
+				StartCoroutine(PlayNote ());
 				noteMemory = new List<Notes> ();
 			}
 		}
 	}
 
 	private IEnumerator WinGame(){
-		var camera = GameObject.FindObjectOfType<Camera> ();
-		CameraFade.StartAlphaFade (new Color32(0, 102, 51, 255), false, 15.0f);
-//		camera.orthographicSize = 2;
-		System.Threading.Thread.Sleep (1000);
-		foreach (var song in Songs) {
-			foreach (var note in song.SongNotes) {
-				var croak = this.gameObject.GetComponent<Croaking> ();
-				croak.PlayNote (note);
-				yield return new WaitForSeconds (Songs [0].NoteDuration);
-			}
-		}
-		SceneManager.LoadScene("endgame");
+		yield return new WaitForSeconds(2.0f);
+		SceneManager.LoadScene ("endgame");
 	}
 
-	private IEnumerator RespondToSong(Notes note){
+
+	private IEnumerator PlayNote(){
 		var croak = this.gameObject.GetComponent<Croaking> ();
 		yield return new WaitForSeconds(0.5f);
-		croak.PlayNote (note);
+		croak.PlayNote (Notes.D);
+	}
+
+	private IEnumerator PlayChord(){
+		var croak = this.gameObject.GetComponent<Croaking> ();
+		yield return new WaitForSeconds(0.5f);
+		croak.PlayNote (Notes.E);
+		croak.PlayNote (Notes.C);
+		croak.PlayNote (Notes.G);
+		yield return new WaitForSeconds(0.5f);
+		croak.PlayNote (Notes.C);
+		croak.PlayNote (Notes.G);
+		croak.PlayNote (Notes.E);
 	}
 
 	private void OnTriggerEnter2D(Collider2D other) {
@@ -91,7 +91,7 @@ public class EmmaFrogBrain : MonoBehaviour,INoteProcessor {
 	private void OnTriggerExit2D(Collider2D other) {
 		if (other.tag == "Player") {
 			isListening = false;
-			currentSong = 0;
+			songsSung = 0;
 			noteMemory = new List<Notes> ();
 		}
 	}
